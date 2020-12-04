@@ -9,7 +9,8 @@
         <link rel="stylesheet" href="dist/reset.css">
         <link rel="stylesheet" href="dist/reveal.css">
         <link href="dist/tailwind.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js" integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
 
         <!-- Theme used for syntax highlighted code -->
         <link rel="stylesheet" href="plugin/highlight/night-owl.css" id="highlight-theme">
@@ -31,8 +32,8 @@
 
                     <h3 class="subtitle">Utilisation</h3>
                     <ul class="custom-list">
-                        <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Penetration testing</li>
-                        <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Hacking</li>
+                        <li class="fragment"><i class="fas fa-shield-alt text-green-500 mr-3"></i> Penetration testing</li>
+                        <li class="fragment"><i class="fas fa-skull-crossbones text-green-500 mr-3"></i> Hacking</li>
                     </ul>
                 </section>
 
@@ -40,13 +41,13 @@
                   <h2 class="title">Introduction</h2>
                   <h3 class="subtitle">Cible</h3>
                   <ul class="custom-list mb-10">
-                      <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Browser web</li>
+                      <li class="fragment"><i class="fas fa-window-maximize text-green-500 mr-3"></i> Browser web</li>
                   </ul>
                   <h3 class="subtitle fragment">Failles utilisées</h3>
                   <ul class="custom-list">
-                      <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> XSS</li>
-                      <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Csrf</li>
-                      <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Flash, ActiveX, Applets Java</li>
+                      <li class="fragment">XSS</li>
+                      <li class="fragment">Csrf</li>
+                      <li class="fragment">Flash, ActiveX, Applets Java</li>
                   </ul>
               </section>
 
@@ -54,8 +55,8 @@
                 <h2 class="title">Introduction</h2>
                 <h3 class="subtitle">Technologies</h3>
                 <ul class="custom-list">
-                  <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Ruby on Rails et JavaScript</li>
-                  <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> support de Linux et macOS</li>
+                  <li class="fragment"><i class="fas fa-code text-green-500 mr-3"></i> Ruby on Rails et JavaScript</li>
+                  <li class="fragment"><i class="fas fa-desktop text-green-500 mr-3"></i> support de Linux et macOS</li>
                   <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Open Source</li>
                 </ul>
             </section>
@@ -77,13 +78,12 @@
               <section>
                 <h2 class="title">Fonctionnalités</h2>
                 <ul class="custom-list">
-                  <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Récupération d'informations</li>
-                  <li class="fragment"><span class="text-green-500 mr-3">&#x3BB;</span>Découverte du réseau</li>
-                  <li class="fragment"><i class="fas fa-cube text-green-500 mr-3"></i>Metasploit</li>
-                  <li class="fragment"><i class="fas fa-brain text-green-500 mr-3"></i>Tunneling</li>
-                  <li class="fragment"><i class="fas fa-cube text-green-500 mr-3"></i>XSS rays</li>
-                  <li class="fragment"><i class="fas fa-cube text-green-500 mr-3"></i>Persistance</li>
-                  <li class="fragment"><i class="fas fa-cube text-green-500 mr-3"></i>Géolocalisation</li>
+                  <li class="fragment"><i class="fas fa-info-circle text-green-500 mr-3"></i> Récupération d'informations</li>
+                  <li class="fragment"><i class="fas fa-network-wired text-green-500 mr-3"></i> Découverte du réseau</li>
+                  <li class="fragment"><i class="fas fa-x-ray text-green-500 mr-3"></i>XSS rays</li>
+                  <li class="fragment"><i class="fas fa-infinity text-green-500 mr-3"></i>Persistance</li>
+                  <li class="fragment"><i class="fas fa-map-marker-alt text-green-500 mr-3"></i>Géolocalisation</li>
+                  <li class="fragment"><i class="fas fa-unlock-alt text-green-500 mr-3"></i>Metasploit</li>
 
               </ul>
             </section>
@@ -91,26 +91,30 @@
               <section>
                 <h2 class="title">Types d'attaques possibles</h2>
                 <ul class="custom-list">
-                  <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Fishing</li>
-                  <li class="fragment"><i class="fas fa-brain text-green-500 mr-3"></i>Intégration dans un site web de confiance</li>
-                  <li class="fragment"><i class="fas fa-cube text-green-500 mr-3"></i>Intégration dans une code base (github, npm)</li>
+                  <li class="fragment"><i class="fas fa-mask text-green-500 mr-3"></i> Fishing</li>
+                  <li class="fragment"><i class="fas fa-thumbs-up text-green-500 mr-3"></i> Intégration dans un site web de confiance</li>
+                  <li class="fragment"><i class="fas fa-user-check text-green-500 mr-3"></i> Intégration dans une codebase (github, npm)</li>
               </ul>
             </section>
 
               <section>
                 <h2 class="title">Interfaces proposées</h2>
                 <ul class="custom-list">
-                  <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Dashboard web</li>
-                    <li class="fragment"><i class="fas fa-code-branch text-green-500 mr-3"></i> Définition de rêgles avec possibilité de chainage en json</li>
-                    <li class="fragment"><span class="text-green-500 mr-3">&#x3BB;</span>API RESTfull</li>
-                    <li class="fragment"><i class="fas fa-brain text-green-500 mr-3"></i>Création de modules en Ruby</li>
-                    <li class="fragment"><i class="fas fa-cube text-green-500 mr-3"></i>Création de commandes en JavaScript</li>
-                    <li class="fragment"><i class="fas fa-brain text-green-500 mr-3"></i>Création d'extensions en Ruby</li>
+                  <li class="fragment"><i class="fas fa-tachometer-alt text-green-500 mr-3"></i> Dashboard web</li>
+                    <li class="fragment"><i class="fas fa-list-alt text-green-500 mr-3"></i> Définition de rêgles avec possibilité de chainage en json</li>
+                    <li class="fragment"><i class="fas fa-cloud text-green-500 mr-3"></i> API RESTful</li>
+                    <li class="fragment"><i class="fas fa-puzzle-piece text-green-500 mr-3"></i>Création de modules en Ruby</li>
+                    <li class="fragment"><i class="fas fa-terminal text-green-500 mr-3"></i>Création de commandes en JavaScript</li>
+                    <li class="fragment"><i class="fas fa-gem text-green-500 mr-3"></i>Création d'extensions en Ruby</li>
                 </ul>
             </section>
 
                 <section class="">
                   <h2 class="title">Démonstration</h2>
+                  <ul class="custom-list">
+                    <li><a href="https://marketing.tsix.be/" target="_blank" rel="noopener noreferrer">https://marketing.tsix.be/</a></li>
+                    <li><a href="https://beef.tsix.be:3000/" target="_blank" rel="noopener noreferrer">https://beef.tsix.be/</a></li>
+                  </ul>
               </section>
 
                 <section>
